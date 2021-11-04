@@ -8,9 +8,14 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.container {
-    width: 1200px;
-    margin: 0 auto;
+a {
+    text-decoration: none;
+}
+
+header::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
 header {
@@ -20,49 +25,36 @@ header {
     background-size: cover;
 }
 
-header::after{
-    content: "";
-    display: table;
-    clear: both;
+.navbar {
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .logo-container {
-    display: inline-block;
     padding: 0 100px;
     float: left;
 }
 
 .list {
     float: left;
-    display: inline-block;
-}
-
-.list ul {
     list-style: none;
 }
 
 .list ul li {
     display: inline-block;
     margin:  8px 10px ;
-    text-align: center;
-    
 }
 
 .list a {
     color: white; 
 }
 
-a {
-    text-decoration: none;
-}
-
 .login a {
-    display: inline-block ;
     float: left;
     width: 90px;
     height: 30px;
     border-radius: 30px;
-    border: 2px white solid;
+    border: 1px white solid;
     background-color: white;
     text-align: center;
     margin: 5px 50px ;
@@ -72,25 +64,85 @@ a {
 
 .box-text {
     width: 600px;
-    margin: 180px auto;
+    margin: 130px auto;
     text-align: center;
+    color: white;
 }
+
+.box-text h1 {
+    font-size: 36px;
+    margin-bottom: 35px;
+}
+
+.button-small a{
+    color: black;
+}
+
+.big-button a {
+    color: white;
+}
+
+/*---------*/
 
 .button-small {
     display: inline-block;
     background-color: white;
+    margin-top: 20px;
     width: 250px;
     height: 30px;
     border: 1px white solid ;
     border-radius: 40px;
+    line-height: 25px;
+    vertical-align: middle;
 }
 
 .big-button{
     display: inline-block;
+    margin-top: 20px;
     width: 250px;
     background-color: rgb(31, 30, 30);
     color: white;
     height: 30px;
     border: 1px rgb(31, 30, 30) solid ;
     border-radius: 40px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+    height: 500px;
+}
+
+.row-img {
+    display: inline-block;
+    float: left;
+    width: 500px;
+    margin: 80px 80px;
+}
+
+.row-img img {
+    width: 600px;
+}
+
+.row-content {
+    display: inline-block;
+    float: left;
+    width: 350px;
+    margin: 80px 80px ;
+}
+
+.strong {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.text {
+    margin-top: 20px;
+    font-size: 19px;
 }
