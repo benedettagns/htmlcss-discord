@@ -16,7 +16,6 @@ body {
 header {
     height: 500px;
     padding: 15px 0;
-    background-color: rgb(117, 117, 255);
     background: url(../photo/jumbo.png) 50% 50% no-repeat;
     background-size: cover;
 }
@@ -71,11 +70,27 @@ a {
     color: black;
 }
 
-.descrizione {
+.box-text {
     width: 600px;
     margin: 180px auto;
+    text-align: center;
 }
-.button {
-    float:left;
+
+.button-small {
     display: inline-block;
+    background-color: white;
+    width: 250px;
+    height: 30px;
+    border: 1px white solid ;
+    border-radius: 40px;
+}
+
+.big-button{
+    display: inline-block;
+    width: 250px;
+    background-color: rgb(31, 30, 30);
+    color: white;
+    height: 30px;
+    border: 1px rgb(31, 30, 30) solid ;
+    border-radius: 40px;
 }
