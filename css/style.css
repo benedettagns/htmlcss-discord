@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 500px;
+    background-image: url();
+    background-color: rgb(21, 18, 206);
+}
+
+.logo-container {
+    float: left;
+    vertical-align: middle;
+
+}
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    float: left;
+    display: inline-block;
+}
+
+button{
+    float: left;
+}
