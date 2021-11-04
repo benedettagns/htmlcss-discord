@@ -193,7 +193,8 @@ header {
 }
 
 .page {
-    margin-left: 300px;
+    height: 600px;
+    padding-left: 300px;
 }
 
 .page-content h1{
@@ -217,4 +218,27 @@ header {
 
 .page-img img {
     width: 700px;
+}
+
+.stars {
+    background: url(../photo/stars.svg) no-repeat;
+    background-position: center;
+}
+
+.stars p {
+    margin: 100px 0 20px 400px;
+}
+
+.stars div {
+    border: 1px rgb(83, 83, 223) solid;
+    background-color: rgb(83, 83, 223);
+    width: 200px;
+    height: 35px;
+    border-radius: 40px;
+    padding: 8px 35px;
+    margin-left: 600px;
+}
+
+.stars a {
+    color: white;
 }
