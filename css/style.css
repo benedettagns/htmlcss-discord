@@ -16,8 +16,9 @@ body {
 header {
     height: 500px;
     padding: 15px 0;
-    background-image: url(photo/jumbo.png);
-    background-color: whitesmoke;
+    background-color: rgb(117, 117, 255);
+    background: url(../photo/jumbo.png) 50% 50% no-repeat;
+    background-size: cover;
 }
 
 header::after{
@@ -68,4 +69,13 @@ a {
     margin: 5px 50px ;
     line-height: 25px;
     color: black;
+}
+
+.descrizione {
+    width: 600px;
+    margin: 180px auto;
+}
+.button {
+    float:left;
+    display: inline-block;
 }
