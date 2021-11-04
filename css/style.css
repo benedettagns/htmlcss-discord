@@ -158,7 +158,7 @@ header {
 }
 
 .row2-img img {
-    width: 600px;
+    width: 500px;
 }
 
 .row2-content {
@@ -183,11 +183,38 @@ header {
 }
 
 .row3-img img {
-    width: 600px;
+    width: 500px;
 }
 
 .row3-content {
     float: left;
     width: 350px;
     margin: 80px 80px ;
+}
+
+.page {
+    margin-left: 300px;
+}
+
+.page-content h1{
+    margin-bottom: 20px;
+}
+
+.page-content {
+    width: 800px;
+    height: 100px;
+    padding: 40px 0;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.page-img {
+    height: 350px;   
+    margin-top: 100px;
+    margin-left: 50px;
+    vertical-align: top;
+}
+
+.page-img img {
+    width: 700px;
 }
