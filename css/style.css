@@ -12,6 +12,17 @@ a {
     text-decoration: none;
 }
 
+.strong {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.text {
+    margin-top: 20px;
+    font-size: 19px;
+}
+/*--------------------------*/
+
 header::after{
     content: "";
     display: table;
@@ -82,27 +93,24 @@ header {
     color: white;
 }
 
-/*---------*/
-
 .button-small {
     display: inline-block;
     background-color: white;
     margin-top: 20px;
     width: 250px;
-    height: 30px;
+    height: 35px;
     border: 1px white solid ;
     border-radius: 40px;
-    line-height: 25px;
+    line-height: 30px;
     vertical-align: middle;
 }
 
 .big-button{
     display: inline-block;
+    background-color: rgb(31, 30, 30);
     margin-top: 20px;
     width: 250px;
-    background-color: rgb(31, 30, 30);
-    color: white;
-    height: 30px;
+    height: 35px;
     border: 1px rgb(31, 30, 30) solid ;
     border-radius: 40px;
     line-height: 30px;
@@ -120,9 +128,7 @@ header {
 }
 
 .row-img {
-    display: inline-block;
     float: left;
-    width: 500px;
     margin: 80px 80px;
 }
 
@@ -131,18 +137,57 @@ header {
 }
 
 .row-content {
-    display: inline-block;
     float: left;
     width: 350px;
     margin: 80px 80px ;
 }
 
-.strong {
-    font-weight: bold;
-    font-size: 40px;
+.row2::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
-.text {
-    margin-top: 20px;
-    font-size: 19px;
+.row2 {
+    height: 500px;
+}
+
+.row2-img {
+    float: right;
+    margin: 80px 80px;
+}
+
+.row2-img img {
+    width: 600px;
+}
+
+.row2-content {
+    float: right;
+    width: 350px;
+    margin: 80px 80px ;
+}
+
+.row3::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row3 {
+    height: 500px;
+}
+
+.row3-img {
+    float: left;
+    margin: 80px 80px;
+}
+
+.row3-img img {
+    width: 600px;
+}
+
+.row3-content {
+    float: left;
+    width: 350px;
+    margin: 80px 80px ;
 }
